@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mingzat', sans-serif;
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+}
+h1{
+    font-size: 30px;
+}
+.corpo-td-receitas{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.todas-receitas{
+    
+    height: 350px;
+    width: 250px;
+    margin: 10px;
+}
+.corpo-td-receitas img{
+    width: 250px;
+    height: 250px;
+}
+.corpo-td-receitas p{
+    color: black;
+    text-align: center;
+    
+}
+
+.corpo-td-receitas a{
+    background-color: #176902;
+    color: white;
+    text-decoration: none; 
+    margin-left: 30%;
+    margin-top: 100px;
+    padding: 8px 24px 8px 24px;
+}

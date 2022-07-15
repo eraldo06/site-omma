@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mingzat', sans-serif;
+}
+
+header{
+  
+    display: flex;
+    background-color: #FFC107;
+    justify-content: center; /* deixar o conteudo no meio*/
+    align-items: center; /* não sei ainda*/
+    position: relative;
+    box-shadow: 1px 0px 10px black; /* fazer a sombra*/
+   
+}
+p{
+    text-align: justify;
+}
+
+#img-banner{
+    
+    padding:  1px 0px 1px 0px;
+   
+   
+   
+}
+nav{
+    display: flex;
+    background-color: #FFA000;
+    justify-content: center; /* deixar o conteudo no meio*/
+}
+nav ul{
+    list-style: none; /* tirar a marcação do ul li*/
+}
+
+nav ul li a{
+    color: #ffff;
+    text-decoration: none; /* tirar o hiperlink*/
+}
+nav ul {
+    display: flex;
+}
+nav ul li{
+    font-size: 20;
+    font-weight: 700;
+    padding: 7px 30px 7px 30px;
+}
+
+.corpo{
+  
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h1{
+    width: 462px;
+    height: 61px;
+    left: 120px;
+    top: 272px;
+    color: #FFA000;
+
+
+}
+
+.pai{
+   
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+.filho1{
+    
+    width: 592px;
+}
+.filho11{
+    
+    width: 560px;
+   
+   
+}
+.filho11 a{
+    
+    color: #176902;
+    text-decoration: none;
+    border: solid 2px #176902;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+
+}
+.ingre{
+    margin-top: 5%;
+}
+.filho111{
+    margin-top: 5%;
+    width: 560px;
+}
+
+.filho1111{
+    margin-top: 5%;
+    width: 560px;
+}
+
+.filho2{
+    margin-top: 5%;
+    background-color: #FFFFFF;
+    width: 345px;
+}
+.frisoto{
+    width: 361px;
+    height: 200px;
+}
+h3{
+    color: #FFA000;
+    margin-left: 5px;
+ 
+}
+
+.foto-bolo{
+    width: 220px;
+    height: 342px;
+    left: 907px;
+    height: 200px;
+}
+
+
+footer{
+    background-color: #FFC107;
+    margin-top: 30%;
+    display: flex;
+    justify-content: left;
+}
+.foto{
+    width: 324px;
+    height: 84px;
+    left: 6px;
+}
+.receitas-relacionadas{
+    margin-top: 30px;
+    margin-left: 5px;
+    width: 220px;
+    height: 259px;
+   box-shadow: 1px 0px  10px black;
+}
+
+.receitas-relacionadas p{
+    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+}
+footer a{
+  
+    color: #FFFFFF;
+    margin-top: 2.5%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+  
+}
+
+
+

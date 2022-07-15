@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mingzat', sans-serif;
+}
+
+.alo{
+    background-image: url(../img/banner_3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: auto;
+}
+
+.alo p{
+    color: white;
+    margin-left: 10%;
+    font-size: 70px;
+    font-family: 'Montserrat';
+    
+}
+.cpai{
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 220px;
+    margin-top: 5%;
+
+}
+.cfilho1{
+    
+    width: 200px;
+    border-radius: 15px;
+}
+
+.cfilho1 img{
+    width: 230px;
+    height: 500px;
+    border-radius: 17px;
+}
+
+.cfilho2{
+    display: flex;
+    margin-left: 5%;
+    border: solid 2px #FFC107;
+    width: 500px;
+    border-radius: 17px;
+    height: 500px;
+   
+
+}
+
+.cfilho2 form{
+    margin-top: 10%;
+    margin-left: 3%;
+    
+}
+
+.cfilho2 form label{
+    color: #FFC107;
+    
+}
+strong{
+    font-size: 30px;
+}
+
+.cfilho2 form input{
+    width: 200%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: solid 2px #FFC107;
+
+}
+textarea {
+    border: solid 2px #FFC107;
+    margin-top: 5%;
+    width: 200%;
+    border-radius: 11px;
+}
+
+
+
+button{
+    color: white;
+    margin-top: 5%;
+    background-color: #FFC107;
+    border: solid 1px #FFC107;
+    padding: 10px 35px 10px 35px;
+    border-radius: 20px;
+    font-family: 'Nunito';
+}
